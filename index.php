@@ -17,18 +17,13 @@
   <link rel="stylesheet" type="text/css" href="css/set1.css" />
   <link href="css/overwrite.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <!-- =======================================================
-    Theme Name: eNno
-    Theme URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
+ 
 </head>
 
 <body>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
+      
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -36,22 +31,29 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-        <a class="navbar-brand" href="index.html"><span>eNno</span></a>
+        <a class="navbar-brand" href="index.php"><span>eNno</span></a>
       </div>
       <div class="navbar-collapse collapse">
         <div class="menu">
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="services.html">Services</a></li>
-            <li role="presentation"><a href="blog.html">Blog</a></li>
-            <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-            <li role="presentation"><a href="contact.html">Contact</a></li>
+            <li role="presentation" class="active"><a href="index.php">Home</a></li>
+            <li role="presentation"><a href="services.php">Gêneros Musicais</a></li>
+            <li role="presentation"><a href="blog.php">Cadastre-se</a></li>
+            <li role="presentation"><a href="portfolio.php">Login</a></li>
+            <li role="presentation"><a href="contact.php">Quem Somos</a></li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
 
+<div class="texto">
+    <div class="text-center">
+        <h2>Bem Vindo ao Músicos de Aluguel!</h2>
+        <p style="color: black; font-size: 13pt; text-align: justify-all;">Se você procura contratar um músico para se apresentar em seu comércio ou evento,<br> ou é um músico e quer ser contratado, você está no lugar certo.
+        </p>
+    </div>
+</div>
 
   <div class="container">
     <div class="row">
@@ -265,7 +267,7 @@
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-2.1.1.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  
   <script src="js/bootstrap.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
