@@ -1,4 +1,3 @@
-/* ==== Google font ==== */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import url('font-awesome.css');
 @import url('overwrite.css');
@@ -57,7 +56,7 @@ hr {
 }
 a.navbar-brand span {
 	color:#fff;
-	font-size:35px;	
+	font-size:27px;	
 }
 
 .navbar-collapse {
@@ -72,7 +71,7 @@ a.navbar-brand span {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 0;
-  background-color:#0db4be;
+  background-color:#23415c;
 }
 .nav-tabs {
   border-bottom:0; 
@@ -557,7 +556,7 @@ footer {
 }
 .last-div {
 	margin-top:40px;
-    background: #0db4be;
+    background: #23415c;
     padding: 20px 0;
     position: relative;
 }
@@ -581,7 +580,7 @@ ul.social-network {
 	list-style:none;
 	margin-top:-20px;
 	float:right;
-	font-size:18px;	
+	font-size:25px;	
 	margin-right:20px;
 }
 
@@ -591,14 +590,18 @@ ul.social-network li {
 	color:#73f4fc;
 }
 ul.social-network li a {	
-	color:#73f4fc;	
-}
-ul.social-network li a:hover {	
 	color:#fff;	
+}
+ul.social-network li a.face:hover {	
+	color:#3b5998;	
+}
+
+ul.social-network li a.twit:hover { 
+  color:#1dcaff;  
 }
 
 a.scrollup{
-    color:#fff;
+  color:red;
 	height:55px;
 	width:55px;
 	font-size:22px;

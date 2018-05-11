@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>eNno Bootstrap Template</title>
+  <title>Músicos de Aluguel</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +19,7 @@
   <link rel="stylesheet" type="text/css" href="css/set1.css" />
   <link href="css/overwrite.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logoo.png">
  
 </head>
 
@@ -33,7 +34,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-        <a class="navbar-brand" href="index.php"><span>eNno</span></a>
+        <a class="navbar-brand" href="index.php"><span>Músicos de Aluguel</span></a>
       </div>
       <div class="navbar-collapse collapse">
         <div class="menu">

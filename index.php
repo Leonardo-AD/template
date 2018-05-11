@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>eNno Bootstrap Template</title>
+  <title>Músicos de Aluguel</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="css/set1.css" />
   <link href="css/overwrite.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logoo.png">
  
 </head>
 
@@ -31,7 +32,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-        <a class="navbar-brand" href="index.php"><span>eNno</span></a>
+        <a class="navbar-brand" href="index.php"><span>Músicos de Aluguel</span></a>
       </div>
       <div class="navbar-collapse collapse">
         <div class="menu">
@@ -250,10 +251,8 @@
       <div class="container">
         <div class="row">
           <ul class="social-network">
-            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
+            <li><a class="face" href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+            <li><a class="twit" href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
             <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
           </ul>
         </div>
