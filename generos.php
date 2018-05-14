@@ -40,10 +40,10 @@
         <div class="menu">
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation"><a href="index.php">Home</a></li>
-            <li role="presentation" class="active"><a href="services.php">Gêneros Musicais</a></li>
-            <li role="presentation"><a href="blog.php">Cadastre-se</a></li>
-            <li role="presentation"><a href="portfolio.php">Login</a></li>
-            <li role="presentation"><a href="contact.php">Quem Somos</a></li>
+            <li role="presentation" class="active"><a href="generos.php">Gêneros Musicais</a></li>
+            <li role="presentation"><a href="cadastrar.php">Cadastre-se</a></li>
+            <li role="presentation"><a href="login.php">Login</a></li>
+            <li role="presentation"><a href="quemsomos.php">Quem Somos</a></li>
           </ul>
         </div>
       </div>

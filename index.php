@@ -38,10 +38,10 @@
         <div class="menu">
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
-            <li role="presentation"><a href="services.php">Gêneros Musicais</a></li>
-            <li role="presentation"><a href="blog.php">Cadastre-se</a></li>
-            <li role="presentation"><a href="portfolio.php">Login</a></li>
-            <li role="presentation"><a href="contact.php">Quem Somos</a></li>
+            <li role="presentation"><a href="generos.php">Gêneros Musicais</a></li>
+            <li role="presentation"><a href="cadastrar.php">Cadastre-se</a></li>
+            <li role="presentation"><a href="login.php">Login</a></li>
+            <li role="presentation"><a href="quemsomos.php">Quem Somos</a></li>
           </ul>
         </div>
       </div>
@@ -74,8 +74,8 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="text-center">
-          <h2>Multi Purpose Theme</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu<br> vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam <br> lorem sit amet scelerisque justo</p>
+          <h2>A Plataforma de contratação de músicos online</h2>
+          <p style="color: black; font-size: 13pt; text-align: justify-all;">Contratar alguém para tocar no seu bar, restaurante ou festa ficou mais rápido, fácil e prático.</p>
         </div>
         <hr>
       </div>
@@ -87,40 +87,40 @@
       <div class="box">
         <div class="col-md-4">
           <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
-            <h4>Responsive</h4>
+            <h4>Rapidez</h4>
             <div class="icon">
-              <i class="fa fa-heart-o fa-3x"></i>
+              <i class="fa fa-search fa-3x"></i>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu libero</p>
-            <div class="ficon">
+            <p style="color: black; font-size: 13pt; text-align: justify-all;">Encontrar um músico ou grupo musical nunca foi tão fácil e rápido.</p>
+            <!-- <div class="ficon">
               <a href="#" class="btn btn-default" role="button">Read more</a>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
-            <h4>Multi Purpose</h4>
+            <h4>Praticidade</h4>
             <div class="icon">
               <i class="fa fa-desktop fa-3x"></i>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu libero</p>
-            <div class="ficon">
+            <p style="color: black; font-size: 13pt; text-align: justify-all;">O Músicos de Aluguel traz praticidade para todos os usuários.</p>
+            <!-- <div class="ficon">
               <a href="#" class="btn btn-default" role="button">Read more</a>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
-            <h4>Easy Customize</h4>
+            <h4>Facilidade</h4>
             <div class="icon">
-              <i class="fa fa-location-arrow fa-3x"></i>
+              <i class="fa fa-comments fa-3x"></i>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu libero</p>
-            <div class="ficon">
+            <p style="color: black; font-size: 13pt; text-align: justify-all;">Coverse diretamente com o músico para acertar os últimos detalhes.</p>
+            <!-- <div class="ficon">
               <a href="#" class="btn btn-default" role="button">Read more</a>
-            </div>
+            </div> -->
           </div>
 
         </div>
@@ -253,7 +253,8 @@
           <ul class="social-network">
             <li><a class="face" href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
             <li><a class="twit" href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
-            <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+            <li><a class= "plus" href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+            <li><a class= "git" href="#" data-placement="top" title="GitHub"><i class="fa fa-github fa-1x"></i></a></li>
           </ul>
         </div>
       </div>

@@ -600,6 +600,14 @@ ul.social-network li a.twit:hover {
   color:#1dcaff;  
 }
 
+ul.social-network li a.plus:hover {
+  color:#d34836; 
+}
+
+ul.social-network li a.git:hover {
+  color:#333; 
+}
+
 a.scrollup{
   color:red;
 	height:55px;
