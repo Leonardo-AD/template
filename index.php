@@ -61,9 +61,9 @@
       <div class="slider">
         <div class="img-responsive">
           <ul class="bxslider">
-            <li><img src="img/01.jpg" alt="" /></li>
-            <li><img src="img/01.jpg" alt="" /></li>
-            <li><img src="img/01.jpg" alt="" /></li>
+            <li><img src="img/mus5.jpg" alt="" /></li>
+            <li><img src="img/mus4.jpg" alt="" /></li>
+            <li><img src="img/mus1.jpg" alt="" /></li>
           </ul>
         </div>
       </div>
@@ -74,8 +74,8 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="text-center">
-          <h2>A Plataforma de contratação de músicos online</h2>
-          <p style="color: black; font-size: 13pt; text-align: justify-all;">Contratar alguém para tocar no seu bar, restaurante ou festa ficou mais rápido, fácil e prático.</p>
+          <h2>A plataforma de contratação de músicos online</h2>
+          <p style="color: black; font-size: 13pt; text-align: justify-all;">Contratar alguém para tocar no seu bar, restaurante ou festa ficou mais rápido, prático e fácil.</p>
         </div>
         <hr>
       </div>
@@ -102,7 +102,7 @@
           <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
             <h4>Praticidade</h4>
             <div class="icon">
-              <i class="fa fa-desktop fa-3x"></i>
+              <i class="fa fa-laptop fa-3x"></i>
             </div>
             <p style="color: black; font-size: 13pt; text-align: justify-all;">O Músicos de Aluguel traz praticidade para todos os usuários.</p>
             <!-- <div class="ficon">
@@ -129,12 +129,14 @@
     </div>
   </div>
 
-  <div class="container">
+  <hr>
+
+  <!-- <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="text-center">
-          <h2>Galleries</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu<br> vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam <br>
+          <h2>Músicos Parceiros</h2>
+          <p>Nossos músicos parceiros que participaram do projeto<br> vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam <br>
           </p>
         </div>
         <hr>
@@ -198,18 +200,18 @@
         </figcaption>
       </figure>
     </div>
-  </div>
+  </div> -->
 
   <footer>
     <div class="inner-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-4 f-about">
-            <a href="index.html"><h1><span>e</span>Nno</h1></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu libero vestibulum volutpat libero sollicitudin vitae Curabitur ac aliquam consectetur adipiscing elit Cras suscipit arcu libero
+            <a><h1><span>Músicos de Aluguel</span></h1></a>
+            <p style="color: black; font-size: 13pt; text-align: justify; text-indent: 30px;">Ideal para as pessoas que querem ganhar uma grana extra no final do mês fazendo o que amam e para as pessoas que procuram músicos para realizarem alguma apresentação... Cadastre-se em nosso site e aproveite nossas vantagens. 
             </p>
           </div>
-          <div class="col-md-4 l-posts">
+          <!-- <div class="col-md-4 l-posts">
             <h3 class="widgetheading">Latest Posts</h3>
             <ul>
               <li><a href="#">This is awesome post title</a></li>
@@ -217,14 +219,14 @@
               <li><a href="#">Create your own awesome website</a></li>
               <li><a href="#">Wow, this is fourth post title</a></li>
             </ul>
-          </div>
+          </div> -->
           <div class="col-md-4 f-contact">
-            <h3 class="widgetheading">Stay in touch</h3>
+            <h3 class="widgetheading">Entre em contato</h3>
             <a href="#">
-              <p><i class="fa fa-envelope"></i> example@gmail.com</p>
+              <p style="color: black; font-size: 11pt;"><i class="fa fa-envelope"></i>musicosdealuguel@gmail.com</p>
             </a>
-            <p><i class="fa fa-phone"></i> +345 578 59 45 416</p>
-            <p><i class="fa fa-home"></i> Enno inc | PO Box 23456 Little Lonsdale St, New York <br> Victoria 8011 USA</p>
+            <p style="color: black; font-size: 11pt;"><i class="fa fa-phone"></i>+55 81 99145-4160</p>
+            <p style="color: black; font-size: 11pt;"><i class="fa fa-home"></i>Endereço: nº 320-B, BR 101 Norte – Km 43,5, Av. Alfredo Bandeira de Melo - Saramandaia, PE.<br></p>
           </div>
         </div>
       </div>
@@ -235,16 +237,10 @@
       <div class="container">
         <div class="row">
           <div class="copyright">
-            &copy; eNno Theme. All Rights Reserved
-            <div class="credits">
-              <!--
-                All the links in the footer should remain intact. 
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eNno
-              -->
+            &copy; 2018 Músicos de Aluguel. Todos os Direitos Reservados.
+            <!-- <div class="credits">
               <a href="https://bootstrapmade.com/">Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
