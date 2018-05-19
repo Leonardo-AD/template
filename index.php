@@ -1,52 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Músicos de Aluguel</title>
-
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/jquery.bxslider.css">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="css/demo.css" />
-  <link rel="stylesheet" type="text/css" href="css/set1.css" />
-  <link href="css/overwrite.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="shortcut icon" href="img/logoo.png">
- 
-</head>
-
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-        <a class="navbar-brand" href="index.php"><span>Músicos de Aluguel</span></a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <div class="menu">
-          <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="index.php">Home</a></li>
-            <li role="presentation"><a href="generos.php">Gêneros Musicais</a></li>
-            <li role="presentation"><a href="cadastrar.php">Cadastre-se</a></li>
-            <li role="presentation"><a href="login.php">Login</a></li>
-            <li role="presentation"><a href="quemsomos.php">Quem Somos</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
+<?php include 'cabecalho.php';?>
 
 <div class="texto">
     <div class="text-center">
