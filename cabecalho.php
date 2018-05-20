@@ -39,15 +39,58 @@
       <div class="navbar-collapse collapse">
         <div class="menu">
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation"><a href="index.php" aria-hidden="true">Home</a></li>
+            <li role="presentation"><a href="index.php">Home</a></li>
             
-            <li role="presentation"><a href="javascript:void(0)" aria-hidden="true" class="dropdown-toggle" data-toggle="dropdown">Gêneros Musicais</a></li>
+            <li role="presentation"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Gêneros Musicais</a></li>
 
             <li role="presentation"><a href="#myModalc" data-toggle="modal">Cadastre-se</a></li>
-            <li role="presentation"><a href="login.php">Login</a></li>
+            <li role="presentation"><a href="#myModal" data-toggle="modal">Login</a></li>
             <li role="presentation"><a href="quemsomos.php">Quem Somos</a></li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
+
+<div id="myModalc" class="modal fade">
+  <div class="modal-dialog modal-login">
+    <div class="modal-content">
+      <!-- <div class="modal-header"> -->
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color: red;">&times;</button>
+                
+          <div class="form-group">
+            <h4 class="modal-title">Cadastrar-se como:</h4>
+              
+            <a href= "pag-musico.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:20px;margin-left:70px;">Músico</a>
+          
+            <a href="pag-contratante.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:20px;margin-left:72px;">Contratante</a>
+
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="myModal" class="modal fade">
+  <div class="modal-dialog modal-login">
+    <div class="modal-content">
+      <div class="modal-header">      
+        <h4 class="modal-title">Login</h4>  
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:red;">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form action="auth.php" method="post">
+          <div class="form-group">
+            <input type="text" class="form-control" name="login" placeholder="E-mail" required="required">    
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" name="senha" placeholder="Senha" required="required"> 
+          </div>        
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Entrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

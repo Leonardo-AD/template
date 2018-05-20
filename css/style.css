@@ -12,57 +12,16 @@ body {
 	background-color:#fff;
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: black;
-    text-align:center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: none;
-    color: white;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 10px 14px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-    color: black;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.texto h2{
+.texto .text-center h2{
   text-align: center;
   margin-top: 75px;
 }
 
-.texto p{
-  margin-top: -10px;
+.texto .text-center p{
+  margin-top: 10px;
+  font-size: 13pt;
+  text-align: justify-all;
+  color: black;
 }
 
 hi,h2,h3,h4,h5,h6 {
@@ -70,9 +29,6 @@ hi,h2,h3,h4,h5,h6 {
 	line-height:1.1em;
 }
 
-p {
-	color:#8a8d94;
-}
 a {
     text-decoration:none;
     transition: all 0.1s ease-in-out;
@@ -157,7 +113,7 @@ a.navbar-brand span {
 }
 
 .slider {
-	margin-top:110px;
+	margin-top:130px;
 	background-color:#;
 	
 }
@@ -277,8 +233,41 @@ a.navbar-brand span {
 	padding:50px;
 	
 }
+
+/*Cadastre-se*/
+
+div.modal-content{
+  margin: 50px;
+  border-radius: 10px;
+  height: 150px;
+}
+h4.modal-title{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+button.close{
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+a.btn{
+  width: 140px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+button.form-group{
+  color: red;
+}
+
+/*Login*/
+
+
+
 /* --- Blog --- */
-.blogs {
+/*.blogs {
 	margin-top:110px;
 }
 
@@ -290,9 +279,9 @@ a.navbar-brand span {
   border-right: 1px solid #eee;
   border-left: 1px solid #eee;
   margin-top:50px;
-}
+}*/
 
-.blog h5 {
+/*.blog h5 {
 	color:#000;
 	margin-left:20px;
 	text-transform:uppercase;
@@ -436,7 +425,7 @@ a.navbar-brand span {
 	text-decoration:none;
 	color:#fff;
 	background-color:#36CBD4;
-}
+}*/
 
 /* --- Portfolio --- */
 .portfolios {

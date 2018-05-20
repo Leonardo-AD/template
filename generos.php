@@ -4,9 +4,9 @@
 <?php include 'cabecalho.php';?>
 
   
-  <?php 
+ <?php 
   	include 'rodape.php';
-  ?>
+ ?>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-2.1.1.min.js"></script>

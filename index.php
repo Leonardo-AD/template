@@ -6,7 +6,7 @@
 <div class="texto">
     <div class="text-center">
         <h2>Bem Vindo ao Músicos de Aluguel!</h2>
-        <p style="color: black; font-size: 13pt; text-align: justify-all;">Se você procura contratar um músico para se apresentar em seu comércio ou evento,<br> ou é um músico e quer ser contratado, você está no lugar certo.
+        <p>Se você procura contratar um músico para se apresentar em seu comércio ou evento,<br> ou é um músico e quer ser contratado, você está no lugar certo.
         </p>
     </div>
 </div>
