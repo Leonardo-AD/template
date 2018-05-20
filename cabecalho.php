@@ -60,10 +60,12 @@
                 
           <div class="form-group">
             <h4 class="modal-title">Cadastrar-se como:</h4>
+
+            <hr style="margin-top: 10px;">
               
-            <a href= "pag-musico.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:20px;margin-left:70px;">Músico</a>
+            <a href= "pag-musico.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:-25px;margin-left:70px;">Músico</a>
           
-            <a href="pag-contratante.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:20px;margin-left:72px;">Contratante</a>
+            <a href="pag-contratante.php" type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top:-25px;margin-left:72px;">Contratante</a>
 
           </div>
       </div>
@@ -73,21 +75,21 @@
 
 <div id="myModal" class="modal fade">
   <div class="modal-dialog modal-login">
-    <div class="modal-content">
+    <div class="modal-content" style="height: 250px;">
       <div class="modal-header">      
-        <h4 class="modal-title">Login</h4>  
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:red;">&times;</button>
+        <h4 class="modal-title" style="margin-top:13px;">Login</h4>  
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:red; margin-top: -45px; margin-right:1px;">&times;</button>
       </div>
       <div class="modal-body">
-        <form action="auth.php" method="post">
+        <form action="auth.php" method="POST">
           <div class="form-group">
-            <input type="text" class="form-control" name="login" placeholder="E-mail" required="required">    
+            <input type="text" class="form-control" name="login" placeholder="E-mail" required="required" style="margin-top: 15px; margin-left:60px; width: 350px; border-radius:20px; border-color: #36CBD4;">    
           </div>
           <div class="form-group">
-            <input type="password" class="form-control" name="senha" placeholder="Senha" required="required"> 
+            <input type="password" class="form-control" name="senha" placeholder="Senha" required="required" style="margin-top: -10px; margin-left:60px; width: 350px; border-radius:20px; border-color: #36CBD4;"> 
           </div>        
           <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Entrar</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top: -10px; margin-left:185px; width: 350px; width: 100px; border-radius: 20px;">Entrar</button>
           </div>
         </form>
       </div>

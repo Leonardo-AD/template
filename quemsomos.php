@@ -3,47 +3,64 @@
 
 <?php include 'cabecalho.php';?>
 
-  <div class="map">
-    <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
-  </div>
+  <div id="qs">
+<div id="sobre">
 
-  <section id="contact-page">
-    <div class="container">
-      <div class="center">
-        <h2>Drop Your Message</h2>
-        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="row contact-wrap">
-        <div class="col-md-8 col-md-offset-2">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
+<h3>Sobre</h3>
 
-            <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
-          </form>
-        </div>
-      </div>
-      <!--/.row-->
-    </div>
-    <!--/.container-->
-  </section>
-  <!--/#contact-page-->
+<p id="ident">
+
+  A plataforma Músicos de Aluguel chegou para inovar. A ideia surgiu para resolver o problema da limitação na hora de contratar um músico ou grupo musical para fazer apresentações em bares e restaurantes ou em festas e eventos. Para utilizar os serviços do site basta clicar em cadastre-se na página inicial, se você já é cadastrado basta realizar o login também na página inicial. Se está pensando em contratar músicos ou grupos musicais você vai se surpreender com a diversidade de estilos musicais presente no nosso site, mostramos os músicos mais próximos de você para que a contratação seja ainda mais rápida. Cadastre-se, Procure, encontre e contrate. Uma plataforma fácil de usar e sem limitações na hora de contratar.
+
+</p>
+
+<h3>Missão</h3>
+
+<p id="ident">
+
+  Músicos de Aluguel é uma plataforma web que presta serviços de contratação musical destinados a atender as necessidades de cada cliente no Brasil com qualificação, confiabilidade e recursos de qualidade com custos adequados a seu negócio.
+
+</p></br>
+
+<h3>Valores</h3>
+
+<p id="valores">
+
+
+  Proatividade.<br/>
+  Melhoria contínua.<br/>
+  Diversidade e Colaboração.<br/>
+  Ética, Respeito e Honestidade.<br/>
+  Compromisso com nossos clientes.<br/>
+  Só é bom para nós, se for bom para o cliente.<br/>
+  Aperfeiçoamento das relações com nossos clientes.<br/>
+
+
+</p></br>
+
+<h3>Desenvolvedores</h3></br>
+
+
+<figure class="grupo">
+
+<img src="img/grupo.jpg">
+  <figcaption>
+    <h4>Lucielly Fernanda - Rafael Vieira - Anderson dos Santos - Leonardo Alves - Tarcísio Marques</h4>
+  </figcaption>
+</figure></br>
+
+
+<p id="info">
+
+  Lucielly Fernanda - E-mail: luciellyx5@gmail.com<br/>
+  Rafael Vieira - E-mail: rafaelvieiraoffiline@gmail.com<br/>
+  Anderson dos Santos - E-mail: aslap7xx@gmail.com<br/>
+  Leonardo Alves - E-mail: leonardo.alves779@gmail.com<br/>
+  Tarcísio Marques - E-mail: tarcisiomarques00000@gmail.com<br/>
+</p>
+
+</div>
+</div>
 
   <?php 
   	include 'rodape.php';
