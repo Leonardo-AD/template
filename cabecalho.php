@@ -41,7 +41,20 @@
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation"><a href="index.php">Home</a></li>
             
-            <li role="presentation"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Gêneros Musicais</a></li>
+            <li class="dropdown">
+        <a href="javascript:void(0)" aria-hidden="true" class="dropbtn">Gêneros Musicais</a>
+        <div class="dropdown-content">
+          <a href="#">Alternativo</a>
+          <a href="#">Hip Hop</a>
+          <a href="#">MPB</a> 
+          <a href="#">Pop</a>
+          <a href="#">Pop Rock</a>
+          <a href="#">Rap</a>
+          <a href="#">Rock</a>
+          <a href="#">Sertanejo</a> 
+          <a href="todos.txt">Todos</a>       
+        </div>
+        </li>
 
             <li role="presentation"><a href="#myModalc" data-toggle="modal">Cadastre-se</a></li>
             <li role="presentation"><a href="#myModal" data-toggle="modal">Login</a></li>
