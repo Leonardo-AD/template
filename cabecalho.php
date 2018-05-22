@@ -43,7 +43,7 @@
             
             <li class="dropdown">
         <a href="javascript:void(0)" aria-hidden="true" class="dropbtn">Gêneros Musicais</a>
-        <div class="dropdown-content">
+        <div class="dropdown-content" style="margin-left: 12px;">
           <a href="#">Alternativo</a>
           <a href="#">Hip Hop</a>
           <a href="#">MPB</a> 
