@@ -62,6 +62,8 @@
 </div>
 </div>
 
+<hr>
+
   <?php 
   	include 'rodape.php';
   ?>
