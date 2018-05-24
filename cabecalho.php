@@ -44,12 +44,13 @@
             <li class="dropdown">
         <a href="javascript:void(0)" aria-hidden="true" class="dropbtn">Gêneros Musicais</a>
         <div class="dropdown-content" style="margin-left: 12px;">
-          <a href="#">Alternativo</a>
+          <a href="#">Eletrônica</a>
           <a href="#">Hip Hop</a>
           <a href="#">MPB</a> 
           <a href="#">Pop</a>
           <a href="#">Pop Rock</a>
           <a href="#">Rap</a>
+          <a href="#">Reggae</a>
           <a href="#">Rock</a>
           <a href="#">Sertanejo</a> 
           <a href="todos.txt">Todos</a>       

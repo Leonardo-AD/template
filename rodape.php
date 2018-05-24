@@ -16,13 +16,13 @@
               <li><a href="#">Wow, this is fourth post title</a></li>
             </ul>
           </div> -->
-          <div class="col-md-4 f-contact">
-            <h3 class="widgetheading">Entre em contato</h3>
+          <div class="col-md-4 f-contact" style="margin-left: 20px;">
+            <h3 class="widgetheading" id="cont">Entre em contato</h3>
             <a href="#">
               <p style="color: black; font-size: 11pt;"><i class="fa fa-envelope"></i>musicosdealuguel@gmail.com</p>
             </a>
             <p style="color: black; font-size: 11pt;"><i class="fa fa-phone"></i>+55 81 99145-4160</p>
-            <p style="color: black; font-size: 11pt;"><i class="fa fa-home"></i>Endereço: nº 320-B, BR 101 Norte – Km 43,5, Av. Alfredo Bandeira de Melo - Saramandaia, PE.<br></p>
+            <p style="color: black; font-size: 11pt;"><i class="fa fa-home"></i>Endereço: nº 320-B, BR 101 Norte – Km 43,5<br> Av. Alfredo Bandeira de Melo - Saramandaia, PE.</p>
           </div>
         </div>
       </div>

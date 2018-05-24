@@ -317,6 +317,91 @@ input.form-control{
   margin-left: 30%;
 }
 
+/*Página de músicos*/
+
+h2.pagm{
+  margin-top:8%;
+}
+
+div#pri{
+  margin-top: 3%;
+  margin-left: 25%;
+}
+
+div#sec{
+  margin-left: 25%;
+}
+
+div#ter{
+  margin-left: 25%;
+}
+
+div#qua{
+  margin-left: 25%;
+}
+
+div#qui{
+  margin-left: 25%;
+}
+
+label#sex{
+  margin-left:21.5%;
+}
+
+div#set{
+  margin-left:25%;
+}
+
+input#name{
+  margin-left:-2%;
+  width: 40%;
+}
+
+input#pwd{
+  margin-left:-2%;
+  width:40%;
+}
+
+input#email{
+  margin-left:-2%;
+  width:40%;
+}
+
+input#cpf{
+  margin-left:-2%;
+  width:40%;
+}
+
+input#cel{
+  margin-left:-2%;
+  width:40%;
+}
+
+input#gen{
+  margin-left:0%;
+  width:40%;
+}
+
+input#address{
+  margin-left:-2%;
+  width:50%;
+}
+
+div#born{
+  margin-left:-6.8%;
+  width:30%;
+}
+
+button#btcad{
+  background-color: #36CBD4;
+  border-radius:20px;
+}
+
+div#corpo{
+   text-align:center;
+}
+
+
 /*Quem somos*/
 
 p#ident{
@@ -662,6 +747,9 @@ footer {
   font-size: 14px;
   color: #8a8d94;
  
+}
+h3#cont{
+  margin-left:-75px;
 }
 .l-posts h3 {
 	margin-left:40px;
