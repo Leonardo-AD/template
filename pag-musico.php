@@ -7,7 +7,7 @@
 <div class="container" id="corpo">
 
   <h2 class="pagm">Cadastro de Músicos</h2>
-    <form class="form-horizontal" action="/action_page.php">
+    <form class="form-horizontal" action="cad-musico.php" method="POST">
       <div class="form-group" id="pri">
         <label class="control-label col-sm-2" for="name">Nome:</label>
         <div class="col-sm-10">
@@ -25,14 +25,14 @@
       <div class="form-group" id="ter">
         <label class="control-label col-sm-2" for="pwd">Senha:</label>
         <div class="col-sm-10">          
-          <input type="password" class="form-control" id="pwd" placeholder="Senha" name="pwd">
+          <input type="password" class="form-control" id="pwd" placeholder="Defina sua senha" name="pwd">
         </div>
       </div>
 
       <div class="form-group" id="qua">
         <label class="control-label col-sm-2" for="cpf">CPF:</label>
         <div class="col-sm-10">          
-          <input type="text" class="form-control" id="cpf" placeholder="CPF" name="cpf">
+          <input type="text" class="form-control" id="cpf" placeholder="CPF (apenas números)" name="cpf">
         </div>
       </div>
 
@@ -208,9 +208,9 @@
         </div>
       </div>     
       
-      <div class="form-group">
+      <div class="form-group" id="oito">
         <label class="control-label col-sm-2" for="gen">Gênero Musical:</label>
-        <div class="col-sm-10">          
+        <div class="col-sm-10" id="gen">          
           <select class="selectpicker" name="gen">
             <option>Gênero</option>           
             <option>Eletrônico</option>

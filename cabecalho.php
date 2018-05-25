@@ -97,10 +97,10 @@
       <div class="modal-body">
         <form action="auth.php" method="POST">
           <div class="form-group">
-            <input type="text" class="form-control" name="login" placeholder="E-mail" required="required" style="margin-top: 15px; margin-left:60px; width: 350px; border-radius:20px; border-color: #36CBD4;">    
+            <input type="text" class="form-control" name="login" placeholder="E-mail" required="required" style="margin-top: 15px; margin-left:60px; width: 350px; border-radius:20px;">    
           </div>
           <div class="form-group">
-            <input type="password" class="form-control" name="senha" placeholder="Senha" required="required" style="margin-top: -10px; margin-left:60px; width: 350px; border-radius:20px; border-color: #36CBD4;"> 
+            <input type="password" class="form-control" name="senha" placeholder="Senha" required="required" style="margin-top: -10px; margin-left:60px; width: 350px; border-radius:20px;"> 
           </div>        
           <div class="form-group">
             <button type="submit" class="btn btn-primary btn-lg btn-block login-btn" style="margin-top: -10px; margin-left:185px; width: 350px; width: 100px; border-radius: 20px;">Entrar</button>

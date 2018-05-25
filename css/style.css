@@ -352,34 +352,38 @@ div#set{
   margin-left:25%;
 }
 
+div#oito{
+  margin-left:25%;
+}
+
 input#name{
   margin-left:-2%;
-  width: 40%;
+  width: 50%;
 }
 
 input#pwd{
   margin-left:-2%;
-  width:40%;
+  width:50%;
 }
 
 input#email{
   margin-left:-2%;
-  width:40%;
+  width:50%;
 }
 
 input#cpf{
   margin-left:-2%;
-  width:40%;
+  width:50%;
 }
 
 input#cel{
   margin-left:-2%;
-  width:40%;
+  width:50%;
 }
 
-input#gen{
-  margin-left:0%;
-  width:40%;
+div#gen{
+  margin-left:-20%;
+  width:50%;
 }
 
 input#address{
@@ -395,6 +399,9 @@ div#born{
 button#btcad{
   background-color: #36CBD4;
   border-radius:20px;
+  margin-left: -20%;
+  margin-top:3%;
+  margin-bottom:8%;
 }
 
 div#corpo{

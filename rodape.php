@@ -43,10 +43,13 @@
       <div class="container">
         <div class="row">
           <ul class="social-network">
-            <li><a class="face" href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
-            <li><a class="twit" href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
-            <li><a class= "plus" href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
-            <li><a class= "git" href="#" data-placement="top" title="GitHub"><i class="fa fa-github fa-1x"></i></a></li>
+            <li><a class="face" target='_blank' href="https://pt-br.facebook.com/" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+            
+            <li><a class="twit" target='_blank' href="https://twitter.com/signup/" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+            
+            <li><a class= "plus" target='_blank' href="https://plus.google.com/u/0/"  data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+            
+            <li><a class= "git" target='_blank' href="https://github.com/" data-placement="top" title="GitHub"><i class="fa fa-github fa-1x"></i></a></li>
           </ul>
         </div>
       </div>
