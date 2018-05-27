@@ -17,7 +17,7 @@
             </ul>
           </div> -->
           <div class="col-md-4 f-contact" style="margin-left: 20px;">
-            <h3 class="widgetheading" id="cont">Entre em contato</h3>
+            <h3 class="widgetheading">Entre em contato</h3>
             <a href="#">
               <p style="color: black; font-size: 11pt;"><i class="fa fa-envelope"></i>musicosdealuguel@gmail.com</p>
             </a>

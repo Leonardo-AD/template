@@ -317,6 +317,8 @@ input.form-control{
   margin-left: 30%;
 }
 
+
+
 /*Página de músicos*/
 
 h2.pagm{
@@ -411,25 +413,25 @@ div#corpo{
 
 /*Quem somos*/
 
-p#ident{
-  text-align: center;
-  text-indent: 30px;
-  text-align: justify;
-  margin-left: 200px;
-  margin-right: 200px;
+div#ic{
+  margin-top:8%;
 }
 
-p#valores{
+h3#dev{
   text-align: center;
+  margin-top: 6%;
+  margin-bottom: 2%;
+  font-size: 15pt;
 }
 
-h3{
+div#inf{
   text-align: center;
-  margin-top: 100px;
+  margin-bottom: 7%;
 }
 
-p#info{
-  text-align: center;
+div#inf p{
+  text-align:justify;
+  margin-left: 33%; 
 }
 
 figure.grupo{
@@ -466,8 +468,9 @@ figure.grupo:hover figcaption{
 }
 
 figure.grupo h4{
-  font-size: 16px;
+  font-size: 11.6pt;
   color:white;
+  text-align: center;
 }
 
 /* --- Blog --- */
@@ -721,6 +724,10 @@ textarea#message{
 
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
+}
+
+div#ind{
+  margin-bottom:7%;
 }
 
 /*=========================

@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="ind">
     <div class="row">
       <div class="box">
         <div class="col-md-4">
