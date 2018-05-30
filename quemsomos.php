@@ -54,7 +54,7 @@
   <hr>
 
 
-<h3 id="dev">Desenvolvedores</h3>
+<h3 id="dev">Desenvolvedores</h3> 
 
 
 <figure class="grupo">
